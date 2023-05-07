@@ -2,7 +2,7 @@
 
 # xxAI.art
 
-* [nayraqata uñtawi](https://github.com/xxai-art/web)
+Sitio web ukan código front-end ukax código abierto ukawa, jaqukipäw sum yanapt’añatakix wali askiwa
 
 * [nayraqata uñtawi](https://github.com/xxai-art/web)
 * [Taqi sitio ukatakix aru paquetes ukanakaw utji](https://github.com/xxai-art/web/tree/main/i18n)
