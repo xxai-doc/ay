@@ -7,3 +7,4 @@ Sitio web ukan código front-end ukax código abierto ukawa, jaqukipäw sum yana
 * [nayraqata uñtawi](https://github.com/xxai-art/web)
 * [Taqi sitio ukatakix aru paquetes ukanakaw utji](https://github.com/xxai-art/web/tree/main/i18n)
 * [Aru paquetes ukax módulos de ingreso ukanakatakiw utji](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [Sitio Web Walja Arut Qillqatanaka](https://github.com/xxai-doc)
