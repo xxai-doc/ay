@@ -2,9 +2,9 @@
 
 * [Sitio Web Walja Arut Qillqatanaka](https://github.com/xxai-doc)
 
-Sitio web ukan código front-end ukax código abierto ukawa, jaqukipäw sum yanapt’añatakix wali askiwa
+Sitio web ukan código frontend ukax código abierto ukawa, jaqukipäw sum yanapt’añatakix wali askiwa
 
-* [nayraqata uñtawi](https://github.com/xxai-art/web)
+* [Código Frontend ukax mä juk’a pachanakanwa](https://github.com/xxai-art/web)
 * [Taqi sitio ukatakix aru paquetes ukanakaw utji](https://github.com/xxai-art/web/tree/main/i18n)
 * [Aru paquetes ukax módulos de ingreso ukanakatakiw utji](https://github.com/wacpkg/user/tree/main/ui.i18n)
 * [Sitio Web Walja Arut Qillqatanaka](https://github.com/xxai-doc)
