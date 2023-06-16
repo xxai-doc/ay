@@ -28,3 +28,47 @@ Aka 3 lurawinakampiw lurasi
 * [@w5/i18n ukat juk’ampinaka](https://www.npmjs.com/package/@w5/i18n)
 
   `yaml` ukan lurat sitios web ukar jaqukipañatakix arut arsuwinakaw utji.
+
+### Documento Jaqukipaña Automatización ukan yatichäwipa
+
+Uñxatt’añataki imañ uta [xxai-art/doc](https://github.com/xxai-art/doc)
+
+Nayraqatax nodejs, [direnv](https://direnv.net) ukat [bun ukanakaw](https://github.com/oven-sh/bun) utt’ayañax wakisi, ukatx directorio ukar mantañ tukuyatat `direnv allow` apnaqañaw wakisi.
+
+Patak patak arunakar jaqukipat sinti jach’a almacenes ukanakar jan puriñapatakix sapa arut mä sapa almacén de código ukham lurawayta ukatx mä tamaw aka almacén ukar imañatak lurawayta
+
+Pachamaman variable `GITHUB_ACCESS_TOKEN` utt’ayaña ukat [create.github.coffee ukar](https://github.com/xxai-art/doc/blob/main/create.github.coffee) apnaqañax automáticamente almacén uñstayañapawa.
+
+Chiqansa, mä almacén ukar ucharaksnawa.
+
+Jaqukipaña script referencia [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
+
+Uka script code ukax akham qhanañchatawa:
+
+[bunx](https://bun.sh/docs/cli/bunx) ukax npx ukat lantintatawa, ukax juk’amp jank’akiw. Chiqans, jan bun ukan utjki ukhax `npx` uka lantiw apnaqasispa.
+
+`bunx mdt zh` ukax `.mdt` ukarux zh directorio ukanx `.md` ukham uñacht’ayi, 2 uñakipt’at qillqatanakax akham uñakipt’atawa
+
+* [café_plus.mdt ukax mä juk’a pachanakanwa](https://github.com/xxai-doc/zh/blob/main/coffee_plus.mdt)
+* [café_plus.md ukat juk’ampinaka](https://github.com/xxai-doc/zh/blob/main/coffee_plus.md)
+
+`bunx i18n` ukax jaqukipañatakix código central ukawa ( `nodejs` ukakiw utji, ukampis `bun` ukat `direnv` janiw instalatäkiti, ukatx `npx i18n` ukax jaqukipañatakiw apnaqasispa).
+
+Ukax [i18n.yml ukar](https://github.com/xxai-art/doc/blob/main/i18n.yml) uñakipañapawa, aka qillqatanx `i18n.yml` ukan configuración ukax akhamawa:
+
+```
+en:
+zh: ja ko en
+```
+
+Ukax akham sañ muni: chino arut jaqukipata japonés, coreano, inglés, inglés arut taqpach yaqha arunakar jaqukipata. Chino ukat inglés arunakaruki yanapt’añ munsta ukhax `zh: en` qillqt’asma.
+
+Qhipïrix [gen.README.coffee](https://github.com/xxai-art/doc/blob/main/gen.README.coffee) , ukax sapa arun `README.md` ukan jach’a sutimp nayrïr subtítulo ukamp taypin utjki ukanak apsu, mä qillqt’äw `README.md` uñstayañataki. Código ukax wali ch’amawa, juma pachpaw uñakipt’asma.
+
+Google API ukax inaki jaqukipañatakiw apnaqasi. Google ukar jan mantañax utjkchi ukhax mä proxy ukar uñt’ayañamawa ukat uñt’ayañamawa, sañäni:
+
+```
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+```
+
+Jaqukipañ qillqatax mä jaqukipäw caché `.i18n` directorio ukan lurani, `git status` ukamp uñakipt’aña ukat código imañ utar yapxataña jan walja kuti jaqukipañataki.
