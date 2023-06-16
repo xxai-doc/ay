@@ -17,14 +17,14 @@ Front-end programación aruxa [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus
 
 Aka 3 lurawinakampiw lurasi
 
-### [@w5/mdt ukat juk’ampinaka](https://www.npmjs.com/package/@w5/mdt)
+* [@w5/mdt ukat juk’ampinaka](https://www.npmjs.com/package/@w5/mdt)
 
-Markdown plantilla, `.mdt` sufijo ukampi, anqäx qillqatanakarux `<+ ./coffee_plus/import.js>` ukar uñtasit sintaxis ukamp uñt’ayaspawa.
+  Sufijo ukax `.mdt` , `<+ ./coffee_plus/import.js>` ukar uñtasit sintaxis ukampiw anqäx qillqatanakar uñt’ayañatakix apnaqasispa, ukatx `.md` sufijo ukampiw markdown uñstayasispa.
 
-[@w5/trmd ukat juk’ampinaka](https://www.npmjs.com/package/@w5/trmd)
+* [@w5/trmd ukat juk’ampinaka](https://www.npmjs.com/package/@w5/trmd)
 
-Markdown jaqukipäwix janiw códigos ukat enlaces ukanakar jaqukipkaniti, ukatx jaqukipat aruchjanakax caché ukanw jaqukipatäni. Jaqukipäwix mayjt’ayatächi ukampis nayrïr qillqatax jan mayjt’ayatäkchi ukhaxa, wasitat phuqhañax janiw jaqukipäwin mayjt’äwipxa chhaqtayatäkaniti.
+  Markdown jaqukipäwix janiw códigos ukat enlaces ukanakar jaqukipkaniti, ukatx jaqukipat aruchjanakax caché ukanw jaqukipatäni. Jaqukipäwix mayjt’ayatächi ukampis nayrïr qillqatax jan mayjt’ayatäkchi ukhaxa, wasitat phuqhañax janiw jaqukipäwin mayjt’äwipxa chhaqtayatäkaniti.
 
-[@w5/i18n ukat juk’ampinaka](https://www.npmjs.com/package/@w5/i18n)
+* [@w5/i18n ukat juk’ampinaka](https://www.npmjs.com/package/@w5/i18n)
 
-`yaml` ukan lurat sitios web ukar jaqukipañatakix arut arsuwinakaw utji.
+  `yaml` ukan lurat sitios web ukar jaqukipañatakix arut arsuwinakaw utji.
