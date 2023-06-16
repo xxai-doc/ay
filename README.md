@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+Nayraqatax nodejs, [direnv](https://direnv.net) , [bun ukanak](https://github.com/oven-sh/bun) uñstayañax wali askiwa, ukatx `direnv allow` directorio ukar mantañ tukuyatat ( [.envrc ukax](https://github.com/xxai-art/doc/blob/main/.envrc) directorio ukar mantañ tukuyatatx ​​automáticamente phuqhasiniwa).
 
-Mä chiqax código sitio web ukax código abierto ukawa, jaqukipäw sum yanapt’añatakix wali askiwa.
+Ukax akham sañ muni: chino arut jaqukipata japonés, coreano, inglés, inglés arut taqpach yaqha arunakar jaqukipata. Chino ukat inglés arunakaruki yanapt’añ munsta ukhax `zh: en` qillqt’asma.
 
-## nayraqata uñtawi
+Ukax akham sañ muni: chino arut jaqukipata japonés, coreano, inglés, inglés arut taqpach yaqha arunakar jaqukipata. Chino ukat inglés arunakaruki yanapt’añ munsta ukhax `zh: en` qillqt’asma.
 
 * [nayraqata uñtawi](https://github.com/xxai-art/web)
 * [Taqi sitio ukatakix aru paquetes ukanakaw utji](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@ Aka 3 lurawinakampiw lurasi
 
 ### Documento Jaqukipaña Automatización ukan yatichäwipa
 
-Uñxatt’añataki imañ uta [xxai-art/doc](https://github.com/xxai-art/doc)
+Uñxatt’añataki codigo imañ uta [xxai-art/doc](https://github.com/xxai-art/doc)
 
-Nayraqatax nodejs, [direnv](https://direnv.net) ukat [bun ukanakaw](https://github.com/oven-sh/bun) utt’ayañax wakisi, ukatx directorio ukar mantañ tukuyatat `direnv allow` apnaqañaw wakisi.
+Nayraqatax nodejs, [direnv](https://direnv.net) , [bun ukanak](https://github.com/oven-sh/bun) uñstayañax wali askiwa, ukatx `direnv allow` directorio ukar mantañ tukuyatat ( [.envrc ukax](https://github.com/xxai-art/doc/blob/main/.envrc) directorio ukar mantañ tukuyatatx ​​automáticamente phuqhasiniwa).
 
-Patak patak arunakar jaqukipat sinti jach’a almacenes ukanakar jan puriñapatakix sapa arut mä sapa almacén de código ukham lurawayta ukatx mä tamaw aka almacén ukar imañatak lurawayta
+Patak patak arunakar jaqukipat jach’a base de código ukar jan puriñapatakix sapa arut mä sapa base de código uñstayawaytwa ukatx mä tamaw base de código ukar imañatak lurawayta
 
-Pachamaman variable `GITHUB_ACCESS_TOKEN` utt’ayaña ukat [create.github.coffee ukar](https://github.com/xxai-art/doc/blob/main/create.github.coffee) apnaqañax automáticamente almacén uñstayañapawa.
+Pachamaman variable `GITHUB_ACCESS_TOKEN` utt’ayaña ukat [create.github.coffee ukar](https://github.com/xxai-art/doc/blob/main/create.github.coffee) apnaqañax automáticamente codigo imañ uñstayañapawa.
 
-Chiqansa, mä almacén ukar ucharaksnawa.
+Chiqansa, mä base de código ukar ucharaksnawa.
 
 Jaqukipaña script referencia [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Google API ukax inaki jaqukipañatakiw apnaqasi. Google ukar jan mantañax utjkc
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-Jaqukipañ qillqatax mä jaqukipäw caché `.i18n` directorio ukan lurani, `git status` ukamp uñakipt’aña ukat código imañ utar yapxataña jan walja kuti jaqukipañataki.
+Jaqukipañ qillqatax mä jaqukipat caché `.i18n` directorio ukan lurani, `git status` ukamp uñakipt’aña ukat código imañ utar yapxataña jan walja kuti jaqukipañataki.
+
+Ukhamaraki, `bunx i18n` sapa kutiwa jaqukipaña mayjt’ayaña, ukhamata caché ukar machaqar tukuyañataki.
+
+Nayra qillqatampi jaqukipatampixa pachpa pachana mayjt’ayatäni ukhaxa, caché ukaxa ch’axwañapawa, ukhamarusa mayjt’ayañ munsta ukhaxa, mäkiw mayjt’ayasma, ukatx `bunx i18n` caché ukar machaqar tukuyañatakiw apnaqasispa.
