@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , mä qawqha lurawinakamp coffeescript sintaxis ukarjam yapxataña, [coffee_plus](./coffee_plus.md) uñakipt’aña.
 
-* variable uñt’ayaña
+## variable uñt’ayaña
 
 ```
 + var1, var2
 ```
 
-* declaración sata uñt’ayawi
+## declaración sata uñt’ayawi
 
 `:$` ukax [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) ukamp apnaqañatakiwa.
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* jank’aki importación
+## jank’aki importación
 
 ```
 > zx/globals:
